@@ -16,11 +16,7 @@ const Home = () => {
                     in Zurich, Switzerland.
                 </h2>
                 <p className='text-gray-400 py-4 max-w-md mt-5'>I have 3+ years of experience building
-                    and designing software.
-                    Currently, I love to work on blah 
-                    Currently, I love to work on blah
-                    Currently, I love to work on blah
-                    Currently, I love to work on blah
+                    and designing software. I create designs for digital experiences.
                 </p>
 
                 <div>
