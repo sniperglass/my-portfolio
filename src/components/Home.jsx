@@ -1,5 +1,6 @@
 import React from 'react'
 import MyPhoto from '../assets/mainpage.png'
+import CV from '../assets/CV.pdf'
 
 const Home = () => {
   return (
@@ -16,16 +17,18 @@ const Home = () => {
                     in Zurich, Switzerland.
                 </h2>
                 <p className='text-gray-400 py-4 max-w-md mt-5'>I have 3+ years of experience building
-                    and designing software. I create designs for digital experiences.
+                    and designing software for digital experiences.
                 </p>
 
                 <div>
-                    <button className='text-white w-fit px-6
-                    py-3 my-2 flex items-center rounded-md bg-gradient-to-r
-                    cursor-pointer border-4 hover:scale-125 duration-500 
-                    border-indigo-400'>
-                    Portfolio
-                    </button>
+                    <a href={CV} title='' download>
+                        <button className='text-white w-fit px-6
+                        py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                        cursor-pointer border-4 hover:scale-125 duration-500 
+                        border-indigo-400'>
+                        Experiences
+                        </button>
+                    </a>
                 </div>
             </div>
 

@@ -14,36 +14,18 @@ const About = () => {
             </div>   
 
                 <p className='text-xl mt-20'>
-                Commodo sunt est quis in magna quis magna enim 
-                nostrud sit 
-                laboris. 
-                Ad culpa eiusmod nulla ullamco do pariatur 
-                Lorem exercitation culpa ea dolore. Pariatur non 
-                commodo aute pariatur laborum deserunt nostrud 
-                nostrud cillum adipisicing et. Aliqua do anim 
-                laborum fugiat adipisicing laboris esse quis 
-                officia fugiat nostrud veniam cillum. Officia 
-                incididunt nostrud voluptate voluptate 
-                exercitation dolor cillum fugiat non Lorem 
-                eiusmod deserunt irure. Laborum laborum aute 
-                esse ad ea. Dolor esse non reprehenderit dolor 
-                eiusmod tempor cupidatat ad.
+                Simple. User-friendly. Navigable. That's how I believe digital products should be.
                 </p>
-
             <br />
-
             <p className='text-xl'>
-                Ad culpa eiusmod nulla ullamco do pariatur 
-                Lorem exercitation culpa ea dolore. Pariatur non 
-                commodo aute pariatur laborum deserunt nostrud 
-                nostrud cillum adipisicing et. Aliqua do anim 
-                laborum fugiat adipisicing laboris esse quis 
-                officia fugiat nostrud veniam cillum. Officia 
-                incididunt nostrud voluptate voluptate 
-                exercitation dolor cillum fugiat non Lorem 
-                eiusmod deserunt irure. Laborum laborum aute 
-                esse ad ea. Dolor esse non reprehenderit dolor 
-                eiusmod tempor cupidatat ad.
+                With a background in adult education, I was intrigued by the inner workings of the Web and the action 'under the hood'.
+                This led me to study and explore this hidden world in greater detail,
+                to further strengthen my knowledge and understanding of this fascinating information superhighway.              
+            </p>
+            <br />
+            <p className='text-xl'>
+               Seriously passionate about UI design and 'web-site make-overs' and psyched by being a 'forever student', eager to build on my present knowledge
+               and experiences, and by staying relevant with the everchanging face of our digital world.
             </p>
         </div>
     </div>

@@ -19,7 +19,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: Camera,
-      href: 'https://www.linkedin.com/in/immanueljaeggi/',
+      href: '',
     }, 
     {
       id: 4,
