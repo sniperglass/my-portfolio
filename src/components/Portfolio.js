@@ -9,22 +9,26 @@ const Portfolio = () => {
     {
       id: 1,
       src: Pool,
-      href: 'https://www.millenniumpools.com/',
+      href: 'https://www.millenniumpools.in/',
+      text: 'Luxury Pools',
     }, 
     {
       id: 2,
       src: Comp,
       href: 'http://conectateac.com/mx',
+      text: 'Commercial',
     }, 
     {
       id: 3,
       src: Camera,
-      href: '',
+      href: 'https://www.aymeeceleste.com/',
+      text: 'Photography',
     }, 
     {
       id: 4,
       src: Camera,
       href: '',
+      text: 'Coming soon',
     }
     
   ]
@@ -47,22 +51,26 @@ const Portfolio = () => {
             gap-10 px-12 sm:px-0'>
 
           {
-            portfolios.map(({id, src, href}) => (
+            portfolios.map(({id, src, href, text}) => (
 
                 <div key={id} className='shadow-md shadow-gray-500'>
-                  <img src={src} alt='' className='rounded-md 
-                  duration-300 hover:scale-110'/>
+                  
 
-                  <div className='flex items-center justify-center'>
+                  <div className='flex items-center justify-center
+                  '>
                     <a
                       href={href}
                       target='_blank'
                       rel='noreferrer'>
+
+                      <img src={src} alt='' className='rounded-md 
+                      duration-300 hover:scale-110 cursor-pointer
+                        '/>
+
                       <button
-                          className='w1/2 px-6 py-3 m-4 
-                          duration-200 hover:scale-110' 
+                          className='w-full px-6 py-3 m-4 duration-300 hover:scale-110' 
                       >
-                        View Website
+                        {text}
                       </button>
                     </a>
                   </div>       

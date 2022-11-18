@@ -27,14 +27,16 @@ const Home = () => {
                         cursor-pointer border-4 hover:scale-125 duration-500 
                         border-indigo-400'>
                         Experiences
-                        </button>
+                        </button> 
                     </a>
                 </div>
             </div>
 
             <div>
-                <img src={MyPhoto} alt='my profile' className='rounded-2xl
-                mx-auto w-1/2 md:w-full drop-shadow-2xl'/>
+                <img src={MyPhoto} alt='my profile' className='
+                flex flex-col items-center rounded-full
+                md:rounded-2xl
+                mx-auto w-1/2 mb-10 md:w-full drop-shadow-2xl'/>
             </div>
         </div>
     </div>
