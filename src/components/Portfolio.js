@@ -71,7 +71,7 @@ const Portfolio = () => {
                         '/>
 
                       <div
-                          className='xs:px-8 px-12 md:px-11 m-4 duration-300 hover:scale-110' 
+                          className='xs:px-8 px-12 md:px-10 m-4 duration-300 hover:scale-110' 
                       >               
                         {text}    
                       </div>

@@ -1,14 +1,14 @@
 import React from 'react'
 
 const About = () => {
+
   return (
-    <div name='about' 
-        className='w-full h-screen'>
+    <div name='about' className='w-full h-screen'>
 
         <div className='max-w-screen-lg p-7 md:p-4 mx-auto flex
-        flex-col justify-center w-full md:h-full xs:mt-20 sm:pb-8'>
+        flex-col justify-center w-full md:h-full xs:mt-20 pt-28'>
 
-            <div className='xs:text-sm sm:mt-25'>           
+            <div className='xs:text-sm'>           
                 <p className='text-3xl md:text-4xl inline font-bold border-b-4 
                 border-gray-500'>About</p>
             </div> 

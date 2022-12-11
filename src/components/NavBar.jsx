@@ -62,7 +62,7 @@ const NavBar = () => {
                  className='px-3 cursor-pointer font-medium text-gray-400 hover:scale-110 
                  duration-200'
                  >
-                    <Link to={link} smooth offset={500} duration={500}>{link}</Link>
+                    <Link to={link} smooth duration={500}>{link}</Link>
                     
                 </li>
             ))}
