@@ -38,7 +38,7 @@ const Portfolio = () => {
     from-black to-gray-800 w-full text-white
     md:h-screen'>
 
-      <div className='max-w-screen-lg p-4 mx-auto flex 
+      <div className='max-w-screen-lg p-7 mx-auto flex 
       flex-col justify-center w-full h-auto xs:mt-20 mt-10 pt-20'>
        
         <div className='pb-8'>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                         '/>
 
                       <div
-                          className='px-12 md:px-11 m-4 duration-300 hover:scale-110' 
+                          className='xs:px-8 px-12 md:px-11 m-4 duration-300 hover:scale-110' 
                       >               
                         {text}    
                       </div>

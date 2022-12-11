@@ -9,7 +9,7 @@ const contact = () => {
     <div name='contact' className='w-full h-screen bg-gradient-to-b
     from-black to-gray-600 p-4 text-white'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg
-        mx-auto h-full'>
+        mx-auto h-full xs:mt-15'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4
                 border-gray-500'>
@@ -50,15 +50,15 @@ const contact = () => {
             <div className='lg:hidden flex flex-row justify-center mx-auto space-x-4'> 
 
                <a href='https://github.com/sniperglass' target='_blank' rel='noreferrer'>           
-                <FaGithub size={35}/>
+                <FaGithub size={30}/>
                </a>
 
                <a href='https://www.linkedin.com/in/immanueljaeggi/' target='_blank' rel='noreferrer'>
-                <SiLinkedin size={35}/>
+                <SiLinkedin size={30}/>
                </a> 
 
                <a href='https://www.instagram.com/ratheroutnow/' target='_blank' rel='noreferrer'>
-                 <BsInstagram size={35}/>
+                 <BsInstagram size={30}/>
                </a>  
             </div>   
         </div>        
