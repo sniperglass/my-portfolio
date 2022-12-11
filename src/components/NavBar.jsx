@@ -44,19 +44,16 @@ const NavBar = () => {
     <div className='flex justify-between items-center
     w-full h-20 px-4 text-white bg-black fixed z-10'>
 
-        
         <div className='cursor-pointer hover:scale-105 duration-200'>      
             {homeLink.map(({ id, link }) => (
                 <h1 
                 key={id}
                 className='text-3xl font-signature ml-3'
                 >
-                    <Link to={link} smooth duration={700}>immanuel.</Link>          
+                    <Link to={link} smooth duration={500}>immanuel.</Link>          
                 </h1>
              ))}
-
         </div>
-
 
         <ul className='hidden md:flex'>
             {links.map(({ id, link }) => (
@@ -65,7 +62,7 @@ const NavBar = () => {
                  className='px-3 cursor-pointer font-medium text-gray-400 hover:scale-110 
                  duration-200'
                  >
-                    <Link to={link} smooth duration={700}>{link}</Link>
+                    <Link to={link} smooth offset={500} duration={500}>{link}</Link>
                     
                 </li>
             ))}
