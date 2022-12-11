@@ -25,7 +25,7 @@ const Home = () => {
                         <button className='text-white w-fit px-6
                         py-3 my-2 flex items-center rounded-md bg-gradient-to-r
                         cursor-pointer border-4 hover:scale-125 duration-500 
-                        border-indigo-400'>
+                        border-orange-400'>
                         Experiences
                         </button> 
                     </a>

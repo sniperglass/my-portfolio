@@ -42,7 +42,7 @@ const contact = () => {
 
                     <button className='px-6 py-3 my-8 flex mx-auto items-center
                      bg-gradient-to-r cursor-pointer rounded-md border-4 
-                     hover:scale-110 duration-500 border-indigo-400'>Let's connect</button> 
+                     hover:scale-110 duration-500 border-orange-400'>Let's connect</button> 
                 </form>
             </div>
 

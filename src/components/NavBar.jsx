@@ -51,7 +51,7 @@ const NavBar = () => {
                 key={id}
                 className='text-3xl font-signature ml-3'
                 >
-                    <Link to={link} smooth duration={500}>immanuel.</Link>          
+                    <Link to={link} smooth duration={700}>immanuel.</Link>          
                 </h1>
              ))}
 
@@ -62,10 +62,10 @@ const NavBar = () => {
             {links.map(({ id, link }) => (
                  <li 
                  key={id} 
-                 className='px-3 cursor-pointer font-medium text-gray-400 hover:scale-105 
+                 className='px-3 cursor-pointer font-medium text-gray-400 hover:scale-110 
                  duration-200'
                  >
-                    <Link to={link} smooth duration={500}>{link}</Link>
+                    <Link to={link} smooth duration={700}>{link}</Link>
                     
                 </li>
             ))}
