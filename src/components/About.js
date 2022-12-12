@@ -13,17 +13,17 @@ const About = () => {
                 border-gray-500'>About</p>
             </div> 
 
-                <p className='text-xl mt-8'>
+                <p className='xs:text-l text-2xl mt-8'>
                     Simple. User-friendly. Navigable. That's how I believe digital products should be.
                     </p>
                 <br />
-                <p className='text-xl'>
+                <p className='xs:text-l text-2xl '>
                     With a background in adult education, I was intrigued by the inner workings of the Web and the action 'under the hood'.
                     This led me to study and explore this hidden world in greater detail,
                     to further strengthen my knowledge and understanding of this fascinating information superhighway.              
                 </p>
                 <br />
-                <p className='text-xl'>
+                <p className='xs:text-l text-2xl '>
                 Seriously passionate about UI design and 'web-site make-overs' and psyched by being a 'forever student', eager to build on my present knowledge
                 and experiences, and by staying relevant with the everchanging face of our digital world.
                 </p>
