@@ -13,7 +13,7 @@ const About = () => {
                 border-gray-500'>About</p>
             </div> 
 
-                <p className='xs:text-lg text-2xl mt-8'>
+                <p className='xs:text-lg mt-8'>
                     Simple. User-friendly. Navigable. That's how I believe digital products should be.
                     </p>
                 <br />

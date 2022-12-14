@@ -26,7 +26,7 @@ const Home = () => {
                         py-3 my-2 flex items-center rounded-md bg-gradient-to-r
                         cursor-pointer border-4 hover:scale-125 duration-500 
                         border-orange-400'>
-                        Experiences
+                        More about me
                         </button> 
                     </a>
                 </div>

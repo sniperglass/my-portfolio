@@ -2,6 +2,7 @@ import React from 'react'
 import Pool from '../assets/pool.png'
 import Comp from '../assets/comp.png'
 import Camera from '../assets/camera.png'
+import Mex from '../assets/mex.png'
 
 const Portfolio = () => {
 
@@ -26,7 +27,7 @@ const Portfolio = () => {
     }, 
     {
       id: 4,
-      src: Camera,
+      src: Mex,
       href: '',
       text: 'Coming soon',
     }
@@ -67,7 +68,7 @@ const Portfolio = () => {
                       rel='noreferrer'>
 
                       <img src={src} alt='' width={220} height={220} className='rounded-md 
-                      duration-300 hover:scale-110 cursor-pointer shadow-md shadow-gray-500
+                      duration-300 hover:scale-110 cursor-pointer shadow-md shadow-white
                         '/>
 
                       <div
