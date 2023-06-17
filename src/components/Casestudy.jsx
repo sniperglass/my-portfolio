@@ -2,8 +2,8 @@ import React from 'react'
 
 const Casestudy = () => {
   return (
-    <div name='Casestudy'>
-      <p>Hallooooo</p>
+    <div name='casestudy'>
+      <p></p>
     </div>
   )
 }

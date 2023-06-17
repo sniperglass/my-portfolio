@@ -1,10 +1,12 @@
 import React from 'react'
 import MyPhoto from '../assets/mainpage.png'
 import CV from '../assets/CV.pdf'
+//import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
     <div name='home'
+
         className='h-screen w-full bg-gradient-to-b
         from-black to-gray-500'>
 
@@ -39,7 +41,8 @@ const Home = () => {
                 mx-auto w-1/2 mb-10 md:w-full drop-shadow-2xl'/>
             </div>
         </div>
-    </div>
+        </div>
+   
   )
 }
 
