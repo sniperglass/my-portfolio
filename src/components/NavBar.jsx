@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -11,28 +11,34 @@ const NavBar = () => {
     const links = [
         {
             id: 1,
-            link: 'home'
+            link: 'home',
+            href: '/'
           
         },
         {
             id: 2,
-            link: 'about'
+            link: 'about',
+            href: '/about'
         },
         {
             id: 3,
-            link: 'portfolio'
+            link: 'portfolio',
+            href: '/portfolio'
         },
         {
             id: 4,
-            link: 'experience'
+            link: 'experience',
+            href: '/experience'
         },
         {
             id: 5,
-            link: 'UIUX'
+            link: 'UIUX',
+            href: '/uiux'
         },
         {
             id: 6,
-            link: 'contact'
+            link: 'contact',
+            href: '/contact'
         }
     ]
 
@@ -40,7 +46,8 @@ const NavBar = () => {
 
         {
             id: 1,
-            link: 'home'
+            link: 'home',
+            href: '/'
         }
     ]
 
@@ -50,29 +57,33 @@ const NavBar = () => {
     w-full h-20 px-4 text-white bg-black fixed z-10'>
 
         <div className='cursor-pointer hover:scale-105 duration-200'>      
-            {homeLink.map(({ id, link }) => (
+            {homeLink.map(({ id, link, href }) => (
+                <Link to={ href }>
                 <h1 
                 key={id}
                 className='text-3xl font-signature ml-3'
                 >
                     
-                        <Link to={link} smooth duration={500}>immanuel.</Link>    
-                        
+                        <a href={link} smooth duration={500}>immanuel.</a>    
+                         
                 </h1>
+                </Link> 
              ))}
         </div>
 
         <ul className='hidden md:flex'>
-            {links.map(({ id, link}) => (
+            {links.map(({ id, link, href}) => (
+                <Link to={ href }>
                  <li 
                  key={id} 
                  className='px-3 cursor-pointer font-medium text-gray-400 hover:scale-110 
                  duration-200'
                  >
                    
-                     <Link to={link} smooth duration={500}>{link}</Link>
+                     <a href={href} smooth duration={500}>{link}</a>
                 
                 </li>
+                </Link>
             ))}
         </ul>
 

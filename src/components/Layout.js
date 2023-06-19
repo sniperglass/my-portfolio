@@ -1,8 +1,8 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+//import { Outlet } from 'react-router-dom'<Outlet/>
 
-import Home from "./Home";
 import NavBar from "./NavBar";
+import Home from "./Home";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Experience from "./Experience";
@@ -24,7 +24,7 @@ const Layout = () => {
         <UIUX />
         <Casestudy/>
         <Contact/>   
-        <Outlet/>
+        
     </>
   )
   
