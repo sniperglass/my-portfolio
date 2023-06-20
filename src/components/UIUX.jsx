@@ -31,15 +31,19 @@ const Uiux = () => {
                       className='xs:text-2 font-bold flex text-black cursor-pointer 
                       hover:scale-90 duration-300'>
 
-                    <Link to={ Casestudy } >Open Case Study </Link> 
+                    <Link to={ Casestudy }>Open Case Study </Link> 
                     <span className='flex align-middle mx-1 p-1'> <FaLongArrowAltRight /></span>         
                     </h1>       
-                  </div>
-                           
-                  <div className='hidden md:flex justify-between items-center align-middle
-                  h-5  ml-[550px] mb-[150px] md:w-5/6 my-auto'>
-                      <img src={iphone} alt="an iphone with landing page"/>
-                  </div>                    
+
+                    <div className='cursor-pointer'>
+                      <a href='/casestudy'>
+                        <img src={iphone} alt="an iphone with landing page"
+                        className='sm:flex flex-row justify-between items-center align-middle
+                        mx-auto my-auto w-1/3 pt-10 md:w-1/3 
+                        '/>
+                      </a>
+                    </div>
+                  </div>               
             </div>                  
         </div>
     </div>
@@ -47,3 +51,4 @@ const Uiux = () => {
 }
 
 export default Uiux
+

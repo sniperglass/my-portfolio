@@ -1,7 +1,7 @@
 import React from 'react'
 import MyPhoto from '../assets/mainpage.png'
 import CV from '../assets/CV.pdf'
-//import {Link} from 'react-router-dom'
+
 
 const Home = () => {
   return (

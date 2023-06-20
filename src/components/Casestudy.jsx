@@ -3,7 +3,7 @@ import React from 'react'
 const Casestudy = () => {
   return (
     <div name='casestudy'>
-      <p></p>
+      <p>kkkkkkkkkkk</p>
     </div>
   )
 }

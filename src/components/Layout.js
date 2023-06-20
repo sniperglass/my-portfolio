@@ -9,7 +9,7 @@ import Experience from "./Experience";
 import Contact from "./Contact";
 import SocialLinks from './SocialLinks';
 import UIUX from './UIUX';
-import Casestudy from './Casestudy';
+
 
 
 const Layout = () => {
@@ -22,7 +22,7 @@ const Layout = () => {
         <Experience />
         <SocialLinks/>
         <UIUX />
-        <Casestudy/>
+       
         <Contact/>   
         
     </>

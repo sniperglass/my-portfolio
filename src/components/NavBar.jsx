@@ -64,7 +64,7 @@ const NavBar = () => {
                 className='text-3xl font-signature ml-3'
                 >
                     
-                        <a href={link} smooth duration={500}>immanuel.</a>    
+                        <a href={link} smooth='true' duration={500}>immanuel.</a>    
                          
                 </h1>
                 </Link> 
@@ -80,7 +80,7 @@ const NavBar = () => {
                  duration-200'
                  >
                    
-                     <a href={href} smooth duration={500}>{link}</a>
+                     <a href={href} smooth='true' duration={500}>{link}</a>
                 
                 </li>
                 </Link>
@@ -102,7 +102,7 @@ const NavBar = () => {
                      className='px-4 cursor-pointer py-5 text-3xl'
                      >
                        <Link onClick={() => setNav(!nav)}
-                       to={link} smooth duration={500}>{link}</Link>
+                       to={link} smooth='true' duration={500}>{link}</Link>
                     </li>
                 ))} 
             </ul>
